@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <link rel="stylesheet" href="src/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/assets/css/style.css">
+    <title>Projeto Bootstrap 4</title>
+</head>
+
+<style type="text/css">
+    .row [class^=col-], .row .col {
+        background-color: #DDD;
+        border: 1px solid #CCC;
+    }
+
+</style>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">Primeira</div>
+            <div class="col">Segunda</div>
+            <div class="col">Terceira</div>
+            <div class="col">Quarta</div>
+            <div class="col">Quinta</div>
+        </div>
+
+    </div>    
+
+       <!-- 
+        class="col order-first" - Faz com que a coluna seja a primeira, independente da posição dela, sempre será a PRIMEIRA.
+
+        class="col order-last" - Faz com que a coluna seja a ultima, independente da posição dela, sempre será a ULTIMA.
+
+          class="col order-1" (Ou qualquer número, é ideal que siga a ordem crescente [1,2,3,4, etc..])" - Faz com que a coluna seja qualquer posição, vai depender da numeração e da composição das colunas. Nesse exemplo, séria a 1º coluna.
+
+
+        -->    
+</body>
+<script src="src/assets/js/jquery-3.7.1.min.js"></script>
+<script src="src/assets/js/bootstrap.bundle.min.js"></script>
+<script src="src/assets/js/script.js"></script>
+</html>
+
+    <!---
+    <div class="w-100"></div> - Essa class, quebra a linha e divide o conteudo, dependendo da posição em que ele está. Mas sempre ira quebrar a linha.
+     -->
