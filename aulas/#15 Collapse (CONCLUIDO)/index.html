@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <link rel="stylesheet" href="src/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/assets/css/style.css">
+    <title>Projeto Bootstrap 4</title>
+</head>
+
+<style type="text/css">
+    #area {
+        border: 1px solid #000;
+        padding: 20px;
+        background-color: #EEEEEE;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <button class="btn btn-primary" data-toggle="collapse" data-target="#area">Mostrar/Esconder</button>
+    </div> 
+    
+    <div class="collapse" id="area">
+        O texto escondido que vai aparecer.
+    </div>
+    
+    <!-- ⬆️ Aplicando o conhecimento abaixo na parte de cima -->
+
+<!---
+    data-toggle="collapse" - Comando para OCULTAR/COLPASAR o elemento.
+
+    data-target="#area" = Comando onde a gente indica QUEM É o alvo que será escondido pelo collapse. No exemplo, escolhemos criar uma nova div com a class chamada "#area" e por isso, no target, chamamos "#area" que no caso é a div criada. Mas pode ser qualquer coisa, inclusive, SITES INTEIROS.
+
+
+    Explicando o funcionamento:
+
+    Observe que na DIV alvo que queremos esconder, colocamos uma CLASS com o nome de collapse, que é o alvo que será escondido e demos um ID para o data-target saber quem é o elemento que ele precisa achar e ocultar. E assim, após essa preparação, todo resto fica por conta do botão. Sempre que apertarmos o botão, ele vai ocultar e desocultar a div parametrada com a class collapse e o target escolhido :)
+-->   
+
+</body>
+<script src="src/assets/js/jquery-3.7.1.min.js"></script>
+<script src="src/assets/js/bootstrap.bundle.min.js"></script>
+<script src="src/assets/js/script.js"></script>
+</html>

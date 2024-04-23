@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <link rel="stylesheet" href="src/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/assets/css/style.css">
+    <title>Projeto Bootstrap 4</title>
+</head>
+
+<style type="text/css">
+
+</style>
+
+<body>
+    <div class="container">
+
+        <div class="dropdrown btn-group">
+
+            <a href="https://www.instagram.com/rd_ciclo/" class="btn btn-primary">Instagram</a>
+            <a href="#" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"></a>
+
+            <div class="dropdown-menu">
+                <a class="dropdown-item"  href="https://google.com">Google</a>
+
+
+                <a class="dropdown-item"  href="https://youtube.com">YouTube</a>
+
+                <div class="dropdown-divider"></div>
+
+                <a class="dropdown-item"  href="https://github.com/robertdouglasaimon">GitHub</a>
+                
+            </div>
+        </div>
+    </div>  
+    
+    <!-- ⬆️ Aplicando o conhecimento abaixo na parte de cima -->
+
+<!---
+    <div class="dropdrown"> - A  div/class que dá a chamada para os botões.
+
+    dropdown-toggle - Comando que atribui ao elemento a ação de menu, interligando a ele os outros que estão na lista e exibindo atraves do botão.
+
+    div class="dropdown-menu"> - div/class que vai conter todos os itens que vão aparecer no dropdown-toggle. É aqui que vai conter todos os itens do dropdown.
+
+    class="dropdrown dropright" - Faz com que a "setinha" que abre o dropdown, ao invés de ficar para baixo, fique para DIREITA.
+
+    class="dropdrown dropup" - Faz com que a "setinha" que abre o dropdown, ao invés de ficar para baixo, fique para CIMA.
+
+     class="dropdrown dropleft" - Faz com que a "setinha" que abre o dropdown, ao invés de ficar para baixo, fique para ESQUERDA.
+
+    data-toggle="dropdown" - Ao clicar uma vez no botão ele vai abrir, ao clicar uma vez ele vai fechar. Ponto.
+
+    class="dropdown-item" - Deixa os itens organizados e na vertical dentro do dropdown. =D
+
+    <div class="dropdown-divider"></div> - Div em branco usada para dividir os conteudos do dropdown.
+
+
+---------ESTRUTURA PARA FAZER UM BOTÃO COM DUAS FUNCIONALIDADES!-------------------------------------------
+
+PASSO 1 - Crie uma div que agrupara os botões.
+
+        <div class="dropdrown btn-group"> - Usada para agrupar os dois botões em uma coisa só.
+
+Passo 2 - Crie 2 botões, um será o botão principal, e o outro será o dropdown que comportará os outros objetos.
+
+        <a href="https://www.instagram.com/rd_ciclo/" class="btn btn-primary">Instagram</a>
+
+        <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"></a>
+
+No nosso exemplo o botão de direcionamento é o do instagram e o botão principal, que é onde está o dropdown é o segundo botão!
+
+Passo 3 - Adicionamos a classe "dropdown-toggle-split" no segundo botão que é o o principal, para dizer que existirá uma divisão entre eles apesar de estarem juntos. É isso que garantirá que de um lado ele vá para o instagram e do outro ele abra o menu dropdown.
+
+E por fim a estrutura completa fica assim:
+
+        <div class="dropdrown btn-group">
+
+            <a href="https://www.instagram.com/rd_ciclo/" class="btn btn-primary">Instagram</a>
+
+            <a href="#" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"></a>
+
+Voalá, temos um botão (que na verdade são dois fundidos kkk) com duas funcionalidades :D
+-->   
+
+</body>
+<script src="src/assets/js/jquery-3.7.1.min.js"></script>
+<script src="src/assets/js/bootstrap.bundle.min.js"></script>
+<script src="src/assets/js/script.js"></script>
+</html>
