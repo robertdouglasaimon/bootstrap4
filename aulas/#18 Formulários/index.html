@@ -13,8 +13,36 @@
 </style>
 
 <body>
-    <div class="container">
-        
+    <div class="container"> <!--TRADICIONAL E HORRIVEL-->
+        <form method="post">
+            E-mail <br><br>
+            <input type="email" name="email" id="">
+            <br>
+            <br>
+            Senha <br><br>
+            <input type="password" name="senha" id="">
+            <br>
+            <br>
+            <input type="submit" value=" Entrar">
+        </form>
+
+        <hr>
+
+        <form method="post"> <!--USANDO O BOOTSTRAP 4-->
+            <div class="form-group">
+                <input type="email" name="email" class="form-control" id="email" placeholder="E-mail">
+            </div>
+
+            <div class="form-group">
+                <input type="senha" name="senha" class="form-control" id="senha" placeholder="Senha">
+            </div>
+            
+            <div class="form-group">
+                <input class="btn btn-primary" type="submit" value="Entrar">
+            </div>
+           
+        </form>
+
     </div>  
     
     <!-- ⬆️ Aplicando o conhecimento abaixo na parte de cima -->
