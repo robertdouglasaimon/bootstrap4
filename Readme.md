@@ -31,6 +31,12 @@ Bem-vindo ao meu repositório do curso de Bootstrap 4 da B7Web! Aqui você encon
 - Modal
 - Tabs e Pills
 
+## Exercicios
+- Exercicio 1: -
+- Exercicio 2: - 
+- Exercicio 3: - 
+
+
 ## Projetos
 - Projeto 1: - <!--Landing Page Responsiva -->
 - Projeto 2: - <!--Blog utilizando componentes do Bootstrap -->

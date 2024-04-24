@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.area {
+    width: 100%;
+    max-width: 350px;  
+    text-align: center; 
+    padding: 10px; 
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    margin: auto 0;
+
+    position: relative;
+    left: -5px;  
+}
+
+.remember {
+    padding: 20px 0px 20px 0px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 20px 0px 20px 0px;
+}
+
+.marcaDgua a, p {
+    color: gray;
+}
+
+.marcaDgua :hover {
+    color: rgb(109, 174, 235);
+    text-decoration: none;
+}
+
+.padding {
+    padding: 20px;
+}
+
