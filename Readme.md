@@ -32,13 +32,13 @@ Bem-vindo ao meu repositório do curso de Bootstrap 4 da B7Web! Aqui você encon
 - Tabs e Pills
 
 ## Exercicios
-- <a href="https://robertdouglasaimon.github.io/bootstrap4/projetos/Projeto Formulário de Login/index.html">Exercicio 1: - Formulário de Login</a>
+- Exercicio 1: - 
 - Exercicio 2: - 
 - Exercicio 3: - 
 
 
 ## Projetos
-- Projeto 1: - <!--Landing Page Responsiva -->
+- <a href="https://robertdouglasaimon.github.io/bootstrap4/projetos/Projeto Formulário de Login/index.html">Projeto 1: - Formulário de Login <!--Landing Page Responsiva --></a>
 - Projeto 2: - <!--Blog utilizando componentes do Bootstrap -->
 - Projeto 3: - <!-- Site de e-commerce com layout responsivo -->
 
