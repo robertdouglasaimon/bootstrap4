@@ -39,7 +39,7 @@ Bem-vindo ao meu repositório do curso de Bootstrap 4 da B7Web! Aqui você encon
 
 ## Projetos
 - <a href="https://robertdouglasaimon.github.io/bootstrap4/projetos/Projeto Formulário de Login/index.html">Projeto 1: - Formulário de Login <!--Landing Page Responsiva --></a>
-- Projeto 2: - <!--Blog utilizando componentes do Bootstrap -->
+- <a href="https://robertdouglasaimon.github.io/bootstrap4/projetos/Projeto Filmes em Cartaz/index.html">Projeto 2: - Projeto Filmes em Cartaz <!--Blog utilizando componentes do Bootstrap --></a>
 - Projeto 3: - <!-- Site de e-commerce com layout responsivo -->
 
 ## Sobre o Bootstrap
