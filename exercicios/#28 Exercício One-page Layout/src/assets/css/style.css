@@ -3,8 +3,38 @@
 *{
     margin: 0px;
     padding: 0px;
+    overflow-x:auto;
 }
 
-.container {
-    
+body {
+    background-color: #212429;
+}
+
+main {
+    background-color: white;
+}
+
+
+.navbar-brand img {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border: 3px solid rgb(250, 253, 255);
+    border-radius: 50%;
+}
+
+.navbar-brand img:hover {
+    border: 3px solid #c1e0e4;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+
+.navbar-nav .nav-item { /*ESPAÇAMENTO ENTRE OS ITENS DO NAV*/
+    margin-right: 15px;
+}
+
+.corCard {
+    background-color: #d8d8d8;
 }
