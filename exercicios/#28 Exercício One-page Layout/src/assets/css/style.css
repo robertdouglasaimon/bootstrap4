@@ -3,7 +3,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    overflow-x:auto;
+    overflow-x:none;
 }
 
 body {
@@ -35,6 +35,17 @@ main {
     margin-right: 15px;
 }
 
-.corCard {
+.corCardPq {
     background-color: #d8d8d8;
+}
+
+.corCardGd {
+    background-color: #d8d8d8;
+}
+
+.cardMaior {
+    max-width: 540px; 
+    margin: 0px 12px auto;
+    justify-content: space-between;
+    align-items: center;
 }
