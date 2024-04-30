@@ -16,6 +16,8 @@
 
 body {
     background-color: #212429;
+    min-height: 100vh;
+    flex-grow: 1;
 }
 
 
@@ -83,13 +85,32 @@ main {
 h1 {
     font-size: 120px;
     font-family: var(--font1-Jersey);
-    padding-top: 150px;
     margin: auto;
+}
+
+.areaDeContato {
+   max-width: 100%;
+   overflow-x: hidden;
+}
+
+.areaDeContato img {
+    background: repeat-y;
+    max-width: 1293px;
+    min-width: 1255px;
 }
 
 .overlayForP {
     background-color: #8f9092;
     border-radius: 10px;
+}
+
+
+
+
+.rodape {
+    text-align: center;
+    padding: 20px 0; /* Espaçamento interno do footer */
+    max-width: 100%;
 }
 
 .rodape a {
@@ -102,8 +123,9 @@ h1 {
     color: #4794ff;
 }
 
-.gifs img, #gif1 {
+/* .gifs img, #gif1 {
     position: relative;
     top: -200px;
     left: 900px;
-}
+} */
+
