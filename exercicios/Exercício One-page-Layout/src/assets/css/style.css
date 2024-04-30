@@ -18,6 +18,7 @@ body {
     background-color: #212429;
     min-height: 100vh;
     flex-grow: 1;
+    overflow-x: hidden;
 }
 
 
