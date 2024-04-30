@@ -32,7 +32,7 @@ Bem-vindo ao meu repositório do curso de Bootstrap 4 da B7Web! Aqui você encon
 - Tabs e Pills
 
 ## Exercicios
-- Exercicio 1: - 
+- <a href="https://robertdouglasaimon.github.io/bootstrap4/exercicios/Exercício One-page-Layout/index.html">Exercicio 1: - One-page Layout</a>
 - Exercicio 2: - 
 - Exercicio 3: - 
 
@@ -40,7 +40,7 @@ Bem-vindo ao meu repositório do curso de Bootstrap 4 da B7Web! Aqui você encon
 ## Projetos
 - <a href="https://robertdouglasaimon.github.io/bootstrap4/projetos/Projeto Formulário de Login/index.html">Projeto 1: - Formulário de Login <!--Landing Page Responsiva --></a>
 - <a href="https://robertdouglasaimon.github.io/bootstrap4/projetos/Projeto Filmes em Cartaz/index.html">Projeto 2: - Projeto Filmes em Cartaz <!--Blog utilizando componentes do Bootstrap --></a>
-- Projeto 3: - <!-- Site de e-commerce com layout responsivo -->
+- <a href="">Projeto 3: - <!-- Site de e-commerce com layout responsivo --></a>
 
 ## Sobre o Bootstrap
 Bootstrap é um framework front-end open-source que facilita o desenvolvimento de interfaces web responsivas e mobile-first. Com uma ampla gama de componentes e utilitários, o Bootstrap permite criar layouts e designs de forma rápida e eficiente, adaptando-se automaticamente a diferentes dispositivos e tamanhos de tela.
